@@ -1,13 +1,18 @@
 // src/App.jsx
 
 import React from 'react';
-import Parallax from './component/Parallax'; // or './components/Message' if you used a folder
 
+import Parallax from './component/Parallax';
+import Multilayerparallax from './component/Multilayerparallax';
 function App() {
   return (
     <div>
-      <Parallax />
-    </div>
+      <Multilayerparallax />
+     <Parallax/>
+    
+      </div>
+      
+   
   );
 }
 
